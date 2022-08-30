@@ -1,0 +1,38 @@
+<head>
+    <title>Quiz de matematicas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="game.css">
+
+
+    
+</head>
+<body>
+    <center>
+        <h3>Juego</h3>
+        <div id="jugador1">
+            <label>Jugador 1 incia sesión para jugar</label>
+            <br>
+            <label>Nombre de usuario: </label>
+            <br>
+            <input type="text" class= "form-control" id ="name_J1"  placeholder="Nombre del jugador">
+        </div>
+        <br>
+        <br>
+        <div id="jugador2">
+            <label>Jugador 2 incia sesión para jugar</label>
+            <br>
+            <label>Nombre de usuario: </label>
+            <br>
+            <input type="text" class="form-control" id ="name_J2"  placeholder="Nombre del jugador">
+        </div>
+        <br>
+        <br>
+        <button class = "btn btn-info" id ="log_in" onclick="addUser()" style="width: 30%">Inicia sesión</button>
+    </center>
+        <script src="game_login.js"></script>
+    </body
